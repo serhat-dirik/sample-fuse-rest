@@ -12,7 +12,7 @@
             <xmljson id="xmljson"/>
         </dataFormats>
 
-        <restConfiguration component="jetty" restHostNameResolver="allLocalIp" port="8082" bindingMode="json">
+        <restConfiguration component="jetty" host="3scale.poc" port="8082" bindingMode="json">
         </restConfiguration>
 
         <rest id="id-26c7a195-f2bf-45a6-9e9a-f39124472d29" path="/jaxrs">
