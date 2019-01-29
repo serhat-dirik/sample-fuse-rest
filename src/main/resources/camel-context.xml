@@ -1,0 +1,67 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:cxf="http://camel.apache.org/schema/cxf"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd
+        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+
+    <camelContext id="cxfrs-62422709-93c9-4a95-9e47-69195c50a391" xmlns="http://camel.apache.org/schema/spring">
+
+        <dataFormats>
+            <xmljson id="xmljson"/>
+        </dataFormats>
+
+        <restConfiguration component="jetty" restHostNameResolver="allLocalIp" port="8082" bindingMode="json">
+        </restConfiguration>
+
+        <rest id="id-26c7a195-f2bf-45a6-9e9a-f39124472d29" path="/jaxrs">
+
+          <get id="id-d619db64-4798-44db-9016-719795ffe062" uri="/account/{arg0}"
+            type="java.lang.String"
+            outType="demo.sd.redhat.com.Account"
+            >
+            <to uri="direct:getAccount"/>
+          </get>
+
+          <get id="id-1023412e-e38e-4efa-beaa-90b25638a43d" uri="/accounts/"
+            type="demo.sd.redhat.com.GetAccounts"
+            outType="demo.sd.redhat.com.Account[]"
+            >
+            <to uri="direct:getAccounts"/>
+          </get>
+        </rest>
+
+        <route id="getAccount">
+            <from uri="direct:getAccount" />
+            <log loggingLevel="INFO" message="getAccount"/>
+            <setBody>
+                <simple>${header.arg0}</simple>
+            </setBody>
+            <unmarshal>
+                <json library="Jackson" unmarshalTypeName="java.lang.String"/>
+            </unmarshal>
+            <to uri="cxf://http://127.0.0.1:8081/ws/accountService?serviceClass=demo.sd.redhat.com.AccountService&amp;defaultOperationName=getAccount"/>
+            <setHeader headerName="Content-Type">
+               <constant>application/json</constant>
+            </setHeader>
+            <setBody>
+                <simple>${body[0]}</simple>
+            </setBody>
+        </route>
+
+        <route id="getAccounts">
+            <from uri="direct:getAccounts" />
+            <log loggingLevel="INFO" message="getAccounts"/>
+            <to uri="cxf://http://127.0.0.1:8081/ws/accountService?serviceClass=demo.sd.redhat.com.AccountService&amp;defaultOperationName=getAccounts"/>
+            <setHeader headerName="Content-Type">
+               <constant>application/json</constant>
+            </setHeader>
+            <setBody>
+                <simple>${body[0]}</simple>
+            </setBody>
+        </route>
+
+    </camelContext>
+
+</beans>

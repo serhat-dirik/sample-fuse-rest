@@ -1,0 +1,298 @@
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - Services: 
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 	AccountService
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 	Port: AccountServicePort
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 	Binding: AccountService
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 	PortType: AccountService
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 	Operations: 
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 		Operation: getAccount
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Input: 
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Message: getAccount
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Part: :getAccount
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 				Params: demo.sd.redhat.com.GetAccount {http://com.redhat.sd.demo/}getAccount
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Output: 
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Message: getAccountResponse
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Part: :getAccountResponse
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 				Params: demo.sd.redhat.com.GetAccountResponse {http://com.redhat.sd.demo/}getAccountResponse
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Faults: 
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 		Operation: getAccounts
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Input: 
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Message: getAccounts
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Part: :getAccounts
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 				Params: demo.sd.redhat.com.GetAccounts {http://com.redhat.sd.demo/}getAccounts
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Output: 
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Message: getAccountsResponse
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Part: :getAccountsResponse
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 				Params: demo.sd.redhat.com.GetAccountsResponse {http://com.redhat.sd.demo/}getAccountsResponse
+2019-01-29 04:57:28 INFO  [org.jboss.fuse.wsdl2rest.impl.WSDLProcessorImpl] (main) - 			Faults: 
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.common.logging.LogUtils] (main) - Using org.apache.cxf.common.logging.Log4jLogger for logging.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading plugin jar:file:/usr/local/lib/node_modules/generator-camel-project/app/wsdl2rest/target/wsdl2rest-impl-fatjar-0.1.3-SNAPSHOT.jar!/BOOT-INF/lib/cxf-tools-wsdlto-core-3.1.11.fuse-720038.jar!/META-INF/tools-plugin.xml
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Found 4 databindings in <source> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading <source> databinding from <source> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading <domsource> databinding from <source> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading <staxsource> databinding from <source> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading <saxsource> databinding from <source> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading plugin jar:file:/usr/local/lib/node_modules/generator-camel-project/app/wsdl2rest/target/wsdl2rest-impl-fatjar-0.1.3-SNAPSHOT.jar!/BOOT-INF/lib/cxf-tools-wsdlto-databinding-jaxb-3.1.11.fuse-720038.jar!/META-INF/tools-plugin.xml
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Found 1 databindings in <jaxb> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading <jaxb> databinding from <jaxb> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading plugin jar:file:/usr/local/lib/node_modules/generator-camel-project/app/wsdl2rest/target/wsdl2rest-impl-fatjar-0.1.3-SNAPSHOT.jar!/BOOT-INF/lib/cxf-tools-wsdlto-frontend-jaxws-3.1.11.fuse-720038.jar!/META-INF/tools-plugin.xml
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Found 3 frontends in <jaxws> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading <jaxws> frontend from <jaxws> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading <jaxws21> frontend from <jaxws> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] (main) - Loading <cxf> frontend from <jaxws> plugin.
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] (main) - Parsing arguments: -d /Users/serhat/RedHat/accountsV2/DBX-MODC/poc/sample-fuse-2rest/src/main/java http://127.0.0.1:8081/ws/accountService?wsdl 
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] (main) - Found 0 alternative forms of usage, will use default form
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] (main) - Accepting token stream for form of usage: default, tokens are [ -d /Users/serhat/RedHat/accountsV2/DBX-MODC/poc/sample-fuse-2rest/src/main/java http://127.0.0.1:8081/ws/accountService?wsdl ]
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] (main) - Position is: 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Reading token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Reading token /Users/serhat/RedHat/accountsV2/DBX-MODC/poc/sample-fuse-2rest/src/main/java
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Reading token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] (main) - Args is available
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] (main) - Accepting token stream for optionGroup: options, tokens are now [ -d /Users/serhat/RedHat/accountsV2/DBX-MODC/poc/sample-fuse-2rest/src/main/java http://127.0.0.1:8081/ws/accountService?wsdl ], running through 38 options
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -fe
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -frontend
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -db
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -databinding
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -wv
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -p
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -sn
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -b
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -reserveClass
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -catalog
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - Matches a switch!!!
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Reading token -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Reading token /Users/serhat/RedHat/accountsV2/DBX-MODC/poc/sample-fuse-2rest/src/main/java
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - Setting argument value of option to /Users/serhat/RedHat/accountsV2/DBX-MODC/poc/sample-fuse-2rest/src/main/java
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] (main) - Option outputdir accepted the token
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] (main) - Args is available
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] (main) - Accepting token stream for optionGroup: options, tokens are now [ http://127.0.0.1:8081/ws/accountService?wsdl ], running through 38 options
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -fe
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -frontend
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -db
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -databinding
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -wv
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -p
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -sn
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -b
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -reserveClass
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -catalog
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -d
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -compile
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -classdir
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -impl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -server
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -client
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -clientjar
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -all
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -autoNameResolution
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -allowElementReferences
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -aer
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -defaultValues
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -ant
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -nexclude
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -exsh
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -noTypes
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -dns
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -dex
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -validate
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -keep
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -wsdlLocation
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -xjc
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -asyncMethods
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -bareMethods
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -mimeMethods
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -noAddressBinding
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -faultSerialVersionUID
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -encoding
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -exceptionSuper
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -seiSuper
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -mark-generated
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] (main) - No option accepted the token, returning
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] (main) - Accepting token stream for optionGroup: common_options, tokens are now [ http://127.0.0.1:8081/ws/accountService?wsdl ], running through 5 options
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -h
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -?
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -help
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -version
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -v
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -verbose
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -V
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -quiet
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -q
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -Q
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - switchArg is -wsdlList
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] (main) - No option accepted the token, returning
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 1
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] (main) - isSatisfied() returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Argument] (main) - Accepting token stream for argument: wsdlurl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Peeking token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] (main) - Reading token http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] (main) - Form default is returning true
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] (main) - <command xmlns="http://cxf.apache.org/Xutil/Command" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cxf.apache.org/Xutil/Command http://cxf.apache.org/schema/xutil/commnad.xsd">
+<option name="outputdir">/Users/serhat/RedHat/accountsV2/DBX-MODC/poc/sample-fuse-2rest/src/main/java</option>
+<argument name="wsdlurl">http://127.0.0.1:8081/ws/accountService?wsdl</argument>
+</command>
+
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameters for help
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - Element with id help is [option: null]
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - local name is option
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameters for version
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - Element with id version is [option: null]
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - local name is option
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameters for verbose
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - Element with id verbose is [option: null]
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - local name is option
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameters for wsdlurl
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameters for help
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - Element with id help is [option: null]
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - local name is option
+2019-01-29 04:57:28 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameters for version
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - Element with id version is [option: null]
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] (main) - local name is option
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameter outputdir
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameters for outputdir
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameter wsdlurl
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] (main) - Getting parameters for wsdlurl
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.resource.DefaultResourceManager] (main) - resolving resource <org.apache.cxf.wsdl11.WSDLManagerImpl/bus> type <interface org.apache.cxf.Bus>
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.resource.DefaultResourceManager] (main) - resolving resource <null> type <interface org.apache.cxf.Bus>
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.wsdlto.core.WSDLDefinitionBuilder] (main) - Registering : org.apache.cxf.binding.soap.wsdl11.SoapAddressPlugin for type: soap-javax.wsdl.Port
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.validator.internal.SchemaValidator] (main) - Validate wsdl http://127.0.0.1:8081/ws/accountService?wsdl
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.resource.DefaultResourceManager] (main) - resolving resource <org.apache.cxf.binding.AbstractBindingFactory/bus> type <interface org.apache.cxf.Bus>
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.resource.DefaultResourceManager] (main) - resolving resource <null> type <interface org.apache.cxf.Bus>
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.wsdlto.WSDLToJavaContainer] (main) - Found service validator : org.apache.cxf.tools.wsdlto.frontend.jaxws.validator.WrapperStyleNameCollisionValidator
+2019-01-29 04:57:29 DEBUG [org.apache.cxf.tools.wsdlto.WSDLToJavaContainer] (main) - Found service validator : org.apache.cxf.tools.wsdlto.frontend.jaxws.validator.UniqueBodyValidator
